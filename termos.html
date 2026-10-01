@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Termos de Serviço do Assistente Processual.">
+  <meta name="theme-color" content="#0b0f17">
+  <title>Termos de Serviço — Assistente Processual</title>
+  <style>
+:root {
+  --bg: #0b0f17;
+  --surface: #111827;
+  --surface-2: #172033;
+  --border: #273449;
+  --text: #e8edf5;
+  --muted: #9aa8bc;
+  --accent: #7c9cff;
+  --accent-2: #a9b9ff;
+  --max: 980px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #182238 0, var(--bg) 45%);
+  color: var(--text);
+  line-height: 1.7;
+}
+a { color: var(--accent-2); text-decoration: none; }
+a:hover { text-decoration: underline; }
+header {
+  border-bottom: 1px solid var(--border);
+  background: rgba(11,15,23,.88);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav {
+  max-width: var(--max);
+  margin: auto;
+  padding: 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.brand { font-weight: 800; letter-spacing: .2px; }
+.brand span { color: var(--accent-2); }
+nav { display: flex; gap: 18px; flex-wrap: wrap; }
+nav a { color: var(--muted); font-size: .94rem; }
+nav a:hover { color: var(--text); text-decoration: none; }
+main { max-width: var(--max); margin: auto; padding: 72px 22px 90px; }
+.hero { padding-bottom: 35px; }
+.badge {
+  display: inline-block;
+  border: 1px solid var(--border);
+  background: rgba(124,156,255,.08);
+  color: var(--accent-2);
+  padding: 5px 11px;
+  border-radius: 999px;
+  font-size: .82rem;
+  font-weight: 700;
+}
+h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.1; margin: 18px 0 12px; }
+h2 { font-size: 1.35rem; margin-top: 42px; }
+h3 { font-size: 1.05rem; margin-top: 28px; }
+.lead { color: var(--muted); max-width: 760px; font-size: 1.08rem; }
+.meta { color: var(--muted); font-size: .9rem; }
+.card {
+  margin-top: 28px;
+  padding: 24px;
+  background: rgba(17,24,39,.82);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+.notice {
+  border-left: 3px solid var(--accent);
+  background: rgba(124,156,255,.06);
+  padding: 16px 18px;
+  border-radius: 8px;
+  color: #cbd5e5;
+}
+ul { padding-left: 24px; }
+li { margin: 7px 0; }
+footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  text-align: center;
+  padding: 28px 22px 40px;
+  font-size: .88rem;
+}
+.buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+.button {
+  display: inline-block;
+  padding: 11px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 700;
+}
+.button.primary { background: var(--accent); color: #08101f; border-color: var(--accent); }
+.button:hover { text-decoration: none; filter: brightness(1.08); }
+@media (max-width: 650px) {
+  .nav { align-items: flex-start; flex-direction: column; }
+  main { padding-top: 45px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="index.html">⚖️ <span>Assistente Processual</span></a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="termos.html">Termos de Serviço</a>
+      <a href="privacidade.html">Privacidade</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <span class="badge">TERMOS DE SERVIÇO</span>
+    <h1>Termos de Serviço</h1>
+    <p class="lead">Condições aplicáveis à utilização do Assistente Processual.</p>
+    <p class="meta"><strong>Última atualização:</strong> [DATA]</p>
+  </section>
+
+  <div class="card">
+    <h2>1. Sobre o serviço</h2>
+    <p>O <strong>Assistente Processual</strong> é um bot desenvolvido para o Discord com a finalidade de auxiliar membros da Defensoria em atividades relacionadas à organização, compreensão e orientação sobre procedimentos processuais.</p>
+    <p>O bot pode auxiliar na interpretação de peças processuais, identificação de informações relevantes, organização de dados de processos e explicação da finalidade de determinados documentos e procedimentos.</p>
+    <p>O Assistente Processual é uma <strong>ferramenta de auxílio</strong> e não substitui a análise, decisão ou responsabilidade de um Defensor, autoridade competente ou responsável pelo processo.</p>
+
+    <h2>2. Aceitação dos termos</h2>
+    <p>Ao utilizar o Assistente Processual, o usuário declara que leu e concorda com estes Termos de Serviço. Caso não concorde com estes termos, deverá deixar de utilizar o bot.</p>
+
+    <h2>3. Utilização do bot</h2>
+    <p>O Assistente Processual deverá ser utilizado para finalidades legítimas e compatíveis com sua finalidade institucional.</p>
+    <p>O usuário poderá utilizar o bot para, entre outras finalidades:</p>
+    <ul>
+      <li>Auxiliar na compreensão de peças processuais;</li>
+      <li>Identificar informações relevantes em documentos;</li>
+      <li>Organizar informações de processos;</li>
+      <li>Compreender a finalidade de despachos, manifestações, decisões e outras peças;</li>
+      <li>Auxiliar na preparação e organização de atividades processuais;</li>
+      <li>Obter explicações sobre procedimentos relacionados ao funcionamento processual.</li>
+    </ul>
+    <p>O usuário é responsável pelas informações fornecidas ao bot e pela utilização das respostas produzidas.</p>
+
+    <h2>4. Responsabilidade pelas decisões</h2>
+    <p>As respostas fornecidas pelo Assistente Processual possuem caráter <strong>auxiliar e informativo</strong>.</p>
+    <p>O bot não possui autoridade para:</p>
+    <ul>
+      <li>Decidir processos;</li>
+      <li>Proferir sentenças ou decisões oficiais;</li>
+      <li>Determinar providências obrigatórias;</li>
+      <li>Substituir um Defensor ou autoridade competente;</li>
+      <li>Garantir o resultado de um processo;</li>
+      <li>Confirmar, por conta própria, a validade jurídica definitiva de uma medida.</li>
+    </ul>
+    <p>Qualquer providência tomada a partir de uma resposta do bot deverá ser analisada e, quando necessário, confirmada pelo responsável pelo processo ou pela autoridade competente.</p>
+
+    <h2>5. Informações fornecidas pelo usuário</h2>
+    <p>Para determinadas funcionalidades, o usuário poderá fornecer informações relacionadas a processos, incluindo:</p>
+    <ul>
+      <li>Número do processo;</li>
+      <li>Requerente;</li>
+      <li>Representante do requerente;</li>
+      <li>Requerido;</li>
+      <li>Defensor do requerido, quando houver;</li>
+      <li>Ministro Relator;</li>
+      <li>Conteúdo de peças processuais;</li>
+      <li>Outras informações necessárias à compreensão do caso.</li>
+    </ul>
+    <p>O usuário deverá evitar o envio de informações desnecessárias para a finalidade pretendida.</p>
+
+    <h2>6. Uso indevido</h2>
+    <p>É proibido utilizar o Assistente Processual para:</p>
+    <ul>
+      <li>Praticar atividades ilícitas;</li>
+      <li>Tentar obter informações privadas de terceiros sem autorização;</li>
+      <li>Explorar vulnerabilidades do bot;</li>
+      <li>Interferir no funcionamento do serviço;</li>
+      <li>Enviar conteúdo deliberadamente malicioso;</li>
+      <li>Utilizar respostas do bot como se fossem decisões oficiais.</li>
+    </ul>
+    <p>O responsável pelo bot poderá limitar ou suspender o acesso de usuários que façam uso inadequado do serviço.</p>
+
+    <h2>7. Disponibilidade</h2>
+    <p>O Assistente Processual é fornecido conforme sua disponibilidade técnica. O serviço poderá ficar temporariamente indisponível para manutenção, atualização, correção de erros ou por problemas relacionados ao Discord, hospedagem, APIs ou outros serviços de terceiros.</p>
+
+    <h2>8. Alterações</h2>
+    <p>Estes Termos de Serviço poderão ser modificados quando necessário para refletir alterações no funcionamento do Assistente Processual, em suas funcionalidades ou em seus procedimentos. A versão mais recente estará disponível nesta página.</p>
+
+    <h2>9. Encerramento</h2>
+    <p>O serviço poderá ser modificado, suspenso ou encerrado a qualquer momento. Quando aplicável, o responsável poderá realizar medidas razoáveis para comunicar alterações relevantes aos usuários.</p>
+
+    <h2>10. Serviços de terceiros</h2>
+    <p>O Assistente Processual funciona dentro do Discord e poderá utilizar serviços, bibliotecas, APIs ou outras tecnologias fornecidas por terceiros. O funcionamento desses serviços está sujeito às respectivas condições e políticas de seus fornecedores.</p>
+
+    <h2>11. Contato</h2>
+    <p><strong>Responsável:</strong> [SEU NOME/USUÁRIO]<br>
+    <strong>Discord:</strong> [SEU USUÁRIO OU SERVIDOR]<br>
+    <strong>E-mail:</strong> [SEU E-MAIL, SE HOUVER]</p>
+
+    <h2>12. Disposições finais</h2>
+    <p>O uso do Assistente Processual representa a concordância do usuário com estes Termos de Serviço. O usuário permanece responsável pela utilização das informações produzidas pelo bot e pelas providências tomadas a partir delas.</p>
+  </div>
+</main>
+<footer>
+  <div>© 2026 Assistente Processual</div>
+  <div>Documento informativo • Última atualização: [DATA]</div>
+</footer>
+</body>
+</html>

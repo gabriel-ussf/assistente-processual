@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Política de Privacidade do Assistente Processual.">
+  <meta name="theme-color" content="#0b0f17">
+  <title>Política de Privacidade — Assistente Processual</title>
+  <style>
+:root {
+  --bg: #0b0f17;
+  --surface: #111827;
+  --surface-2: #172033;
+  --border: #273449;
+  --text: #e8edf5;
+  --muted: #9aa8bc;
+  --accent: #7c9cff;
+  --accent-2: #a9b9ff;
+  --max: 980px;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #182238 0, var(--bg) 45%);
+  color: var(--text);
+  line-height: 1.7;
+}
+a { color: var(--accent-2); text-decoration: none; }
+a:hover { text-decoration: underline; }
+header {
+  border-bottom: 1px solid var(--border);
+  background: rgba(11,15,23,.88);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.nav {
+  max-width: var(--max);
+  margin: auto;
+  padding: 16px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.brand { font-weight: 800; letter-spacing: .2px; }
+.brand span { color: var(--accent-2); }
+nav { display: flex; gap: 18px; flex-wrap: wrap; }
+nav a { color: var(--muted); font-size: .94rem; }
+nav a:hover { color: var(--text); text-decoration: none; }
+main { max-width: var(--max); margin: auto; padding: 72px 22px 90px; }
+.hero { padding-bottom: 35px; }
+.badge {
+  display: inline-block;
+  border: 1px solid var(--border);
+  background: rgba(124,156,255,.08);
+  color: var(--accent-2);
+  padding: 5px 11px;
+  border-radius: 999px;
+  font-size: .82rem;
+  font-weight: 700;
+}
+h1 { font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.1; margin: 18px 0 12px; }
+h2 { font-size: 1.35rem; margin-top: 42px; }
+h3 { font-size: 1.05rem; margin-top: 28px; }
+.lead { color: var(--muted); max-width: 760px; font-size: 1.08rem; }
+.meta { color: var(--muted); font-size: .9rem; }
+.card {
+  margin-top: 28px;
+  padding: 24px;
+  background: rgba(17,24,39,.82);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+.notice {
+  border-left: 3px solid var(--accent);
+  background: rgba(124,156,255,.06);
+  padding: 16px 18px;
+  border-radius: 8px;
+  color: #cbd5e5;
+}
+ul { padding-left: 24px; }
+li { margin: 7px 0; }
+footer {
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  text-align: center;
+  padding: 28px 22px 40px;
+  font-size: .88rem;
+}
+.buttons { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 24px; }
+.button {
+  display: inline-block;
+  padding: 11px 16px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-weight: 700;
+}
+.button.primary { background: var(--accent); color: #08101f; border-color: var(--accent); }
+.button:hover { text-decoration: none; filter: brightness(1.08); }
+@media (max-width: 650px) {
+  .nav { align-items: flex-start; flex-direction: column; }
+  main { padding-top: 45px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <a class="brand" href="index.html">⚖️ <span>Assistente Processual</span></a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="termos.html">Termos de Serviço</a>
+      <a href="privacidade.html">Privacidade</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="hero">
+    <span class="badge">POLÍTICA DE PRIVACIDADE</span>
+    <h1>Política de Privacidade</h1>
+    <p class="lead">Informações sobre o tratamento de dados realizado pelo Assistente Processual.</p>
+    <p class="meta"><strong>Última atualização:</strong> [DATA]</p>
+  </section>
+
+  <div class="card">
+    <h2>1. Sobre esta política</h2>
+    <p>Esta Política de Privacidade explica como o <strong>Assistente Processual</strong>, bot desenvolvido para o Discord, trata as informações fornecidas durante sua utilização.</p>
+    <p>O objetivo desta política é informar de maneira transparente quais informações podem ser recebidas, para quais finalidades elas podem ser utilizadas e quais cuidados são adotados em relação a esses dados.</p>
+
+    <h2>2. Informações que podem ser recebidas</h2>
+    <p>Dependendo das funcionalidades utilizadas, o Assistente Processual poderá receber informações enviadas voluntariamente pelo usuário, incluindo:</p>
+    <ul>
+      <li>Nome de usuário ou identificador do Discord;</li>
+      <li>Informações necessárias para identificar o atendimento ou interação;</li>
+      <li>Número de processo;</li>
+      <li>Nome ou identificação do requerente;</li>
+      <li>Representante do requerente;</li>
+      <li>Nome ou identificação do requerido;</li>
+      <li>Defensor do requerido, quando houver;</li>
+      <li>Ministro Relator;</li>
+      <li>Conteúdo de peças processuais;</li>
+      <li>Mensagens enviadas ao bot;</li>
+      <li>Outras informações inseridas voluntariamente pelo usuário durante a utilização do serviço.</li>
+    </ul>
+    <p>O conjunto de informações efetivamente armazenadas dependerá da configuração e das funcionalidades implementadas no bot.</p>
+
+    <h2>3. Finalidade do tratamento</h2>
+    <p>As informações recebidas poderão ser utilizadas para finalidades relacionadas ao funcionamento do Assistente Processual, incluindo:</p>
+    <ul>
+      <li>Processar solicitações realizadas pelo usuário;</li>
+      <li>Compreender peças e documentos enviados;</li>
+      <li>Produzir explicações e orientações relacionadas ao conteúdo fornecido;</li>
+      <li>Organizar informações necessárias ao atendimento;</li>
+      <li>Manter o funcionamento das funcionalidades do bot;</li>
+      <li>Identificar erros, abusos ou problemas técnicos;</li>
+      <li>Melhorar a estabilidade e o funcionamento do serviço.</li>
+    </ul>
+
+    <h2>4. Armazenamento</h2>
+    <div class="notice">
+      <strong>ATENÇÃO — personalize esta seção antes de publicar.</strong><br>
+      Se o bot guardar mensagens, processos, IDs ou históricos em banco de dados, esta seção deve descrever isso corretamente.
+    </div>
+    <p><strong>Versão para bot sem armazenamento permanente:</strong> As mensagens e informações enviadas ao bot são utilizadas para o processamento da solicitação e não são armazenadas permanentemente pelo Assistente Processual, ressalvados registros técnicos necessários ao funcionamento e à segurança do serviço.</p>
+    <p><strong>Versão para bot com armazenamento:</strong> Determinadas informações poderão ser armazenadas para permitir o funcionamento das funcionalidades do bot, o acompanhamento de atendimentos ou a organização dos processos. Os dados serão mantidos somente pelo período necessário às respectivas finalidades ou conforme as regras aplicáveis ao ambiente em que o bot é utilizado.</p>
+
+    <h2>5. Informações de processos</h2>
+    <p>O Assistente Processual poderá receber informações relacionadas a processos para realizar suas funções.</p>
+    <p>O usuário deverá fornecer somente as informações necessárias para a finalidade pretendida e deverá evitar o envio de dados pessoais ou informações sensíveis que não sejam necessários para a utilização do serviço.</p>
+
+    <h2>6. Conteúdo enviado para análise</h2>
+    <p>Quando uma peça processual ou outro documento for enviado ao Assistente Processual, o conteúdo poderá ser processado para produzir a resposta solicitada.</p>
+    <p>O bot não deverá ser considerado um sistema oficial de armazenamento ou arquivo processual. O usuário continua responsável por manter os documentos oficiais nos sistemas ou locais apropriados.</p>
+
+    <h2>7. Compartilhamento de informações</h2>
+    <p>As informações fornecidas ao Assistente Processual não serão intencionalmente comercializadas.</p>
+    <p>Dependendo da implementação técnica, determinadas informações poderão ser processadas por serviços de terceiros necessários ao funcionamento do bot, como serviços de hospedagem, APIs, bancos de dados ou serviços de inteligência artificial.</p>
+    <p>Quando houver utilização desses serviços, o tratamento das informações também poderá estar sujeito às políticas de privacidade e aos termos dos respectivos fornecedores.</p>
+
+    <h2>8. Discord</h2>
+    <p>O Assistente Processual funciona dentro da plataforma Discord. A utilização do Discord está sujeita às políticas e aos termos estabelecidos pelo próprio Discord.</p>
+    <p>O Assistente Processual não controla as informações coletadas diretamente pelo Discord como parte do funcionamento da plataforma.</p>
+
+    <h2>9. Segurança</h2>
+    <p>São adotadas medidas razoáveis para reduzir riscos de acesso não autorizado, perda, alteração ou divulgação indevida das informações tratadas pelo serviço. Entretanto, nenhum sistema conectado à internet pode garantir segurança absoluta.</p>
+    <p>Os usuários também devem evitar o envio de informações desnecessárias ou excessivamente sensíveis.</p>
+
+    <h2>10. Exclusão de informações</h2>
+    <p>Caso informações sejam armazenadas pelo Assistente Processual, o usuário poderá solicitar sua exclusão por meio do contato indicado nesta política, quando aplicável.</p>
+    <p>A solicitação deverá identificar, na medida do possível, quais informações ou registros devem ser excluídos.</p>
+    <p>Determinados registros poderão ser mantidos quando necessários para segurança, prevenção de abusos, cumprimento de obrigações aplicáveis ou outras finalidades legítimas.</p>
+
+    <h2>11. Menores de idade</h2>
+    <p>O Assistente Processual não é desenvolvido especificamente para coletar informações de crianças. Os usuários devem utilizar o serviço de acordo com as regras aplicáveis ao Discord e às demais plataformas utilizadas pelo serviço.</p>
+
+    <h2>12. Alterações nesta Política</h2>
+    <p>Esta Política de Privacidade poderá ser atualizada periodicamente para refletir alterações no funcionamento do Assistente Processual, nas tecnologias utilizadas ou nos procedimentos relacionados ao tratamento de informações.</p>
+
+    <h2>13. Contato</h2>
+    <p><strong>Responsável:</strong> [SEU NOME/USUÁRIO]<br>
+    <strong>Discord:</strong> [SEU USUÁRIO OU SERVIDOR]<br>
+    <strong>E-mail:</strong> [SEU E-MAIL, SE HOUVER]</p>
+
+    <h2>14. Disposições finais</h2>
+    <p>Ao utilizar o Assistente Processual, o usuário declara estar ciente de que as informações fornecidas poderão ser processadas conforme descrito nesta Política de Privacidade.</p>
+    <p>O tratamento de informações será limitado às finalidades relacionadas ao funcionamento e à prestação das funcionalidades disponibilizadas pelo Assistente Processual.</p>
+  </div>
+</main>
+<footer>
+  <div>© 2026 Assistente Processual</div>
+  <div>Documento informativo • Última atualização: [DATA]</div>
+</footer>
+</body>
+</html>
